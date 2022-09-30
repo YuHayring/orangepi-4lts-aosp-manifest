@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="orangepi"
-            fetch="https://github.com/orangepi-aosp/" />
+    <remote name="orangepi-dev"
+            fetch="https://github.com/orangepi-aosp/"
+            pushurl="git@github.com:orangepi-aosp" />
+
+    <project group="orangepi" path="bootable/u-boot" name="u-boot" remote="orangepi-dev" revision="refs/heads/v2022.07" />
 </manifest>
