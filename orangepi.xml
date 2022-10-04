@@ -4,5 +4,11 @@
             fetch="https://github.com/orangepi-aosp/"
             pushurl="git@github.com:orangepi-aosp" />
 
+    <remote name="rockchip-linux"
+            fetch="https://github.com/rockchip-linux" />
+
     <project group="orangepi" path="bootable/u-boot" name="u-boot" remote="orangepi-dev" revision="refs/heads/v2022.07" />
+    <project group="orangepi" path="device/xunlong/common" name="device_common" remote="orangepi-dev" revision="13.0.0" />
+    <project group="orangepi" path="device/xunlong/orangepi4" name="device_orangepi4" remote="orangepi-dev" revision="13.0.0" />
+    <project group="orangepi" path="vendor/rockchip/rkbin" name="rkbin" remote="rockchip-linux" revision="b0c100f1a260d807df450019774993c761beb79d" />
 </manifest>
