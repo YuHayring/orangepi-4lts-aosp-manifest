@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="orangepi-dev"
-            fetch="https://github.com/orangepi-aosp/"
-            pushurl="git@github.com:orangepi-aosp" />
+            fetch="https://github.com/orangepi-aosp/" />
 
     <remote name="rockchip-linux"
             fetch="https://github.com/rockchip-linux" />
